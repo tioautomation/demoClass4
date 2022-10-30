@@ -19,3 +19,7 @@ Feature: Adding a laptop to the Cart
       | LastName    | Java       |
       | Email       | sq@j.com   |
       | Phone       |  121212121 |
+      
+      @chrome
+  Scenario: Search Laptop and add it to the cart in amazon
+    Given : I am at the home page
